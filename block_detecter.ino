@@ -12,6 +12,14 @@
 int tick = 0;
 int oldTick = 0;
 int pinInterrupt = 2; //接中断信号的脚
+
+int pin_interrupt_button = 3//按键中断
+
+int pin_red_led = 6;
+int pin_yellow_led = 7;
+int pin_green_led = 8;
+
+
 int blockTimes = 0;
 int beepTimes = 0;
 
